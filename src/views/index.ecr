@@ -1,0 +1,18 @@
+<div>
+  <table>
+    <tr>
+      <th>Item</th>
+      <th>Category</th>
+    </tr>
+    <%- items_categories.each do |ic| -%>
+      <tr>
+	<td>
+	  <%= ic.item %>
+	</td>
+	<td>
+	  <%= ic.category %>
+	</td>
+      </tr>
+    <%- end -%>
+  </table>
+</div>

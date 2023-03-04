@@ -1,0 +1,14 @@
+name: kemal-sqlite-application
+version: 0.1.0
+
+targets:
+  kemal-sqlite-application:
+    main: src/kemal-sqlite-application.cr
+
+crystal: 1.7.2
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
